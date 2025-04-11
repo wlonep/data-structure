@@ -1,3 +1,4 @@
+/*Task 1-2*/
 import java.util.ArrayList;
 
 public class MyTree {
@@ -52,16 +53,14 @@ public class MyTree {
     }
 
     public MyNode addChild(MyNode v, Object e) {
-        MyNode child = new MyNode(e);
-        child.setChildren(new ArrayList<>());
+        MyNode child = (MyNode) e;
         child.setParent(v);
         v.children().add(child);
         return child;
     }
 
     public MyNode addChild(MyNode v, int i, Object e) {
-        MyNode child = new MyNode(e);
-        child.setChildren(new ArrayList<>());
+        MyNode child = (MyNode) e;
         child.setParent(v);
         v.children().add(i, child);
         return child;
