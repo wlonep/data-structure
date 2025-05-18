@@ -1,4 +1,4 @@
-/*Task 1-2*/
+package MidTerm;/*Task 1-2*/
 import java.util.ArrayList;
 
 public class MyTree {

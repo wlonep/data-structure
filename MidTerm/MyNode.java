@@ -1,4 +1,4 @@
-/*Task 1-1*/
+package MidTerm;/*Task 1-1*/
 import java.util.ArrayList;
 
 public class MyNode {

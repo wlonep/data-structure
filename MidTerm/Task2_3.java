@@ -1,3 +1,5 @@
+package MidTerm;
+
 public class Task2_3 {
     public static void main(String[] args) throws NotExternalException {
         MyBinTree tree = new MyBinTree();

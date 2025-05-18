@@ -1,3 +1,5 @@
+package MidTerm;
+
 public class MyBinNode extends MyNode {
     MyBinNode() {
         super();

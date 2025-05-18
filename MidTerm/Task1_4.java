@@ -1,3 +1,5 @@
+package MidTerm;
+
 public class Task1_4 {
     public static void main(String[] args) {
         /*Task 1-4 1)*/
